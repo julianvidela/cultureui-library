@@ -17,7 +17,7 @@ yarn add cultureui-library
 - TailwindCSS 3.x
 - PostCSS configurado (como cualquier proyecto con Tailwind)
 
-> ✅ Los estilos se importan automáticamente. **No hace falta hacer** `import 'cultureui-library/dist/styles.css'`.
+> ✅ Los estilos se importan automáticamente..
 
 ---
 
@@ -61,13 +61,11 @@ export default function MyComponent() {
 
 ## ⚙️ Configuración Tailwind
 
-Asegurate de incluir `cultureui-library` en tu `tailwind.config.js` para que funcionen las clases internas:
 
 ```js
 export default {
   content: [
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/cultureui-library/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
@@ -76,19 +74,9 @@ export default {
 };
 ```
 
----
-
-## 🧪 Roadmap (en progreso)
-
-- ✅ Componentes accesibles
-- 🌗 Soporte para dark mode dinámico
-- 🔐 Integración directa con Supabase Auth
-
----
-
 ## 🧠 Autor
 
-Creado por [@julianvidela](https://github.com/julianvidela) con ❤️ y obsesión por el detalle.
+Creado por [@julianvidela](https://github.com/julianvidela) con ❤️.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julian-videla-87857a253/)
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/julianvidela)
