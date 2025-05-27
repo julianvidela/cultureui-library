@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  /* Colores de fondo */
+  --background: #000000;
+
+  /* Colores de texto */
+  --text-color-primary: #b9b9b9a1;
+  --text-color-secondary: #ffffff;
+
+
+
+
+
+  --bg-black-degrade: #0000008e;
+
+
+  /* Tamaño de fuente */ 
+  --font-height-small:12px;
+  --font-height-normal:20px;
+  --font-height-medium:26px;
+  --font-height-large: 32px;
+  
+
+  /* Colores de bordes */
+  --border-primary: #ffffff15;
+}
